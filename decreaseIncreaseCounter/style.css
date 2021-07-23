@@ -1,0 +1,29 @@
+body {
+    background-color: lightgreen;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+#container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    width: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    color: red
+}
+button {
+    padding: 5px
+}
