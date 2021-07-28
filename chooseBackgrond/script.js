@@ -1,12 +1,12 @@
 
-const buttonEl = document.getElementById('button');
+const input type="button"El = document.getElementById('input type="button"');
 
 
-function changeColor(colorInput) {
+function changeColor(colorinput type="button") {
 
-    colorInput = document.getElementById('input').value;
-    document.body.style.backgroundColor = colorInput;
+    colorinput type="button" = document.getElementById('input type="button"').value;
+    document.body.style.backgroundColor = colorinput type="button";
     
 }
-buttonEl.addEventListener('click',changeColor);
+input type="button"El.addEventListener('click',changeColor);
 changeColor()

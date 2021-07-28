@@ -13,13 +13,13 @@ body {
     flex-direction: column;
 }
 
-#input-content {
+#input type="button"-content {
     display: flex;
     flex-direction: column;
     margin: 10px
 }
 
 
-#input-content > * {
+#input type="button"-content > * {
     margin: 5px
 }

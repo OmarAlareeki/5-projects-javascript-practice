@@ -1,0 +1,134 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(221, 207, 207);
+    margin: -6px -7px 20px -7px;
+    box-shadow: 0px 1px 2px rgb(216, 195, 195);
+    padding: 5px;
+    height: 40px;
+}
+
+#header > * {
+    padding: 5px;
+}
+
+#header > div > #search-input {
+    width: 35px;
+}
+
+#header > div > #search-input:hover {
+    width: 75px;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+#header > div > i {
+    position: relative;
+    left: 50px;
+    top: 0px;
+}
+
+#fav-meals > div{
+    display: flex;
+   background-color: rgb(230, 205, 205);
+   margin: -8px;
+   justify-content: center;
+   align-items: center; 
+}
+
+#fav-meals > div > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#fav-meals > div > ul > li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    
+}
+
+#fav-meals > div > ul > li > img {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 197, 197);
+}
+
+#fav-meals > div > ul > li > span{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+ }
+
+ #random-meal {
+     margin: 10px;
+ }
+
+#random-meal > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.meal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal-container > img {
+    border: 2px solid rgb(224, 215, 215);
+    height: 400px;
+    width: 400px;
+}
+
+.meal-container > span {
+    position: relative;
+    left: -110px;
+    bottom: -90px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 145px;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: .5px 1px 5px rgb(216, 195, 195);
+}
+
+.meal-container > #ratingBox  {
+    display: flex;
+    flex-direction: row;
+    margin: 10px
+}
+
+.meal-container > div > #likeBtn {
+    font-size: 20px;
+    margin: 5px;
+    position: relative;
+    right: -10px;
+    top: -5px;
+    border: none;
+    background-color: transparent;
+}
+
+.active {
+    color: red
+}
+
+.meal-container > div > button:hover {
+    color: rgb(209, 52, 52);
+}
+
+/* media query */
+
+/* @media only screen and (min-width: 620px) {
+   #random-meal {
+      width: 45%
+    }
+  } */
